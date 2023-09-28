@@ -24,11 +24,11 @@ phases:
   post_build:
     commands:
       - echo "Build completed successfully!"
-artifacts:
-  files:
-    - '**/*'
-    base-directory: base_dir
-    name: sample-python-app
-    discard-paths: no
+# artifacts:
+#   files:
+#     - '**/*'
+#     base-directory: base_dir
+#     name: sample-python-app
+#     discard-paths: no
 
 
